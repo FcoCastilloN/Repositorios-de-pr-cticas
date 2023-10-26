@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 22 18:56:42 2023
-
-@author: Javier
-"""
 
 corpus = [
     "Este es un ejemplo de un corpus de oraciones.",
