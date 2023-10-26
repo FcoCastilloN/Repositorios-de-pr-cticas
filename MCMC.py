@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 22 19:23:29 2023
 
-@author: Javier
-"""
 
 import random
 #Monte Carlo para Cadenas de Markov (MCMC) es una técnica utilizada para muestrear valores de una distribución de probabilidad 
