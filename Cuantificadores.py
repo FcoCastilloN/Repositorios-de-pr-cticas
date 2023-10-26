@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 22 18:44:51 2023
-
-@author: Javier
-"""
 
 import sympy
 
