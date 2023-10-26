@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 22 18:50:08 2023
 
-@author: Javier
-"""
 
 from sympy import symbols, Not, Or, simplify
 
