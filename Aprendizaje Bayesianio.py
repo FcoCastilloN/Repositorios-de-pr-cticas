@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 22 19:13:37 2023
-
-@author: Javier
-"""
 
 import nltk
 from nltk.corpus import movie_reviews
