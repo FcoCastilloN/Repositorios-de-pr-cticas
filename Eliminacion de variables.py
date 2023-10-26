@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 22 19:22:07 2023
 
-@author: Javier
-"""
 
 # Definir la matriz de transición de la cadena de Markov
 transition_matrix = {
