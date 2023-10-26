@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 22 19:14:53 2023
 
-@author: Javier
-"""
 
 import tensorflow as tf
 from tensorflow.keras.datasets import mnist
