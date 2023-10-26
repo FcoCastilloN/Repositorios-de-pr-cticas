@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 22 18:45:12 2023
-
-@author: Javier
-"""
 
 base_de_datos_peliculas = {
     "Pelicula1": ["Aventura", "Acción", "Ciencia Ficción"],
