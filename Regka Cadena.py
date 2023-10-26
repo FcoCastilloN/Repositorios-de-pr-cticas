@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 22 19:27:23 2023
 
-@author: Javier
-"""
 
 from pgmpy.models import BayesianNetwork
 from pgmpy.factors.discrete import TabularCPD
