@@ -1,0 +1,34 @@
+#FuzzyCLIPS es una extensión de CLIPS (C Language Integrated Production System) que agrega capacidades de lógica difusa a este sistema experto.
+#Con FuzzyCLIPS, puedes trabajar con lógica difusa y reglas difusas en el entorno CLIPS. Sin embargo, no es una extensión de Python, por lo que no puedes ejecutar código FuzzyCLIPS directamente en Python. 
+#Debes usar el entorno de CLIPS o FuzzyCLIPS para trabajar con él.
+#Para utilizar FuzzyCLIPS, primero debes instalarlo en tu sistema siguiendo las instrucciones proporcionadas en el sitio web oficial de CLIPS (http://www.clipsrules.net/). Una vez instalado, puedes crear programas FuzzyCLIPS en su entorno
+
+
+
+(deftemplate Temperatura
+   (slot valor (type INTEGER)))
+
+(deffacts Datos
+   (Temperatura (valor 25)))
+
+(deffuzzyvar Velocidad "Velocidad del Ventilador" 0 100 percent
+   (0 0 "Apagado")
+   (0 25 "Baja")
+   (25 75 "Media")
+   (75 100 "Alta"))
+
+(deffuzzyfication Velocidad)
+
+(deffuzzification Velocidad
+   (Centroid 0 100))
+
+(defrule Regla1
+   (Temperatura (valor ?t))
+   =>
+   (assert (Velocidad (fuzzyvalue Velocidad ?t))))
+
+(reset)
+(run)
+
+; Muestra la velocidad resultante
+(facts)
