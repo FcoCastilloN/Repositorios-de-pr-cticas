@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 22 18:56:44 2023
 
-@author: Javier
-"""
 
 import nltk
 from nltk.grammar import Nonterminal, CFG
