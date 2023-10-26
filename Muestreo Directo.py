@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 22 19:25:13 2023
-
-@author: Javier
-"""
 
 import random
 
