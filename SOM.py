@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 22 19:10:45 2023
 
-@author: Javier
-"""
 
 import numpy as np
 from sklearn.datasets import load_iris
