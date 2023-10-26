@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 22 18:48:47 2023
-
-@author: Javier
-"""
-
 
 def unificar(termino1, termino2, sustitucion={}):
     if sustitucion is None:
