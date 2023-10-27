@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Busqueda en profundidad", "Busqueda en profundidad\Busqueda en profundidad.pyproj", "{81FF5E73-4A82-4587-A625-BC7E7D5DBA14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81FF5E73-4A82-4587-A625-BC7E7D5DBA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81FF5E73-4A82-4587-A625-BC7E7D5DBA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE9B1F7A-83E1-464B-86CB-2C6DE3E8AA32}
+	EndGlobalSection
+EndGlobal
