@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Interferencia_difusos", "Interferencia_difusos\Interferencia_difusos.pyproj", "{D730A00C-F9E9-49E5-AC56-51A7895B30F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D730A00C-F9E9-49E5-AC56-51A7895B30F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D730A00C-F9E9-49E5-AC56-51A7895B30F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C631BA9D-C98D-457F-9D7F-BB1B922E3DE8}
+	EndGlobalSection
+EndGlobal
